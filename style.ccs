@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ff4d4d;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff1a1a;
+}
+
+#heartContainer {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #ff4d4d;
+}
